@@ -7,12 +7,21 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
+.dream-paragraph {
+    padding-right: 180px;
+}
+
 .orange-color {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -20,9 +29,14 @@ section {
     padding-left: 5%;
 }
 
-.half-width img {
+.first-image {
     width: 80%;
     margin-top: 35px;
+}
+
+.second-image {
+    width: 80%;
+    margin-top: 20px;
 }
 
 .link-button {
@@ -40,4 +54,10 @@ section {
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
